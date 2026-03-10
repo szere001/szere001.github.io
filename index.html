@@ -1,23 +1,121 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
-<style>
-body {
-  text-align: center;
-}
-</style>
+  <title>Sania Zerehpoush Portfolio</title>
+  <style>
+    /* --- Body & Page Layout --- */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Helvetica, sans-serif;
+      display: flex;
+      flex-direction: column;    
+      align-items: center;      
+      text-align: center;        
+      background-color: #f1e8ec; 
+      min-height: 100vh;         
+    }
+
+    .container {
+      width: 100%;
+      max-width: 800px;          
+    }
+
+    
+    .circle-img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 20px auto;
+      border: 1px solid #00f;    
+    }
+
+    
+    h1 {
+      color: #2f80ff; 
+      margin: 10px 0 5px 0;
+    }
+
+    h2 {
+      color: #4a4a4a;
+      font-weight: normal;
+      margin: 5px 0 20px 0;
+    }
+
+    
+    .contact {
+      margin-bottom: 30px;
+    }
+
+    .contact a {
+      color: #2358a0;
+      text-decoration: none;
+      margin: 0 8px;
+      transition: color 0.3s ease;
+    }
+
+    .contact a:hover {
+      color: #2f80ff;
+    }
+
+    
+    #about-me {
+      max-width: 700px;
+      margin: 20px auto 40px auto;
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(255,255,255,0.6);
+      border-radius: 15px;
+    }
+
+    .about-heading {
+      color: #f28fb0; 
+      font-size: 28px;
+      margin-bottom: 15px;
+      transition: color 0.3s ease;
+    }
+
+    .about-heading:hover {
+      color: #2f80ff; 
+    }
+
+    #about-me p {
+      color: #4a4a4a;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+  </style>
 </head>
+
 <body>
+  <div class="container">
+    
+    <img src="img/IMG_3042.jpeg" alt="My Photo" class="circle-img">
 
-<img src="IMG_3042.jpeg"> 
+    
+    <h1>Sania Zerehpoush</h1>
+    <h2>San Diego, CA 🌊 <br> University of California Riverside | Fall 2026</h2>
 
+    
+    <div class="contact">
+      <a href="mailto:saniazerehpoush@gmail.com">Email</a> ᯓ
+      <a href="https://www.linkedin.com/in/sania-zerehpoush-961612266/">LinkedIn</a> ᯓ
+      <a href="img/resume.pdf">Resume</a> ᯓ
+      <a href="Unit-3-Project.html">Portfolio</a>
+    </div>
 
-
-<h1>Sania Zerehpoush</h1>
-<h2> San Diego, CA 🌊 <br> Unviersity of California Riverisde | Fall 2026</h2>
-<div class = "contact">
-	<a href="mailto:saniazerehpoush@gmail.com">Email</a> ᯓ <a href= "https://www.linkedin.com/in/sania-zerehpoush-961612266/" >Linkedin</a> ᯓ <a href="img/resume.pdf"> Resume</a>
-</div>
+    
+    <section id="about-me">
+      <h2 class="about-heading">About Me</h2>
+      <p>
+        Hi! I'm Sania Zerehpoush, a student at the University of California Riverside, class of Fall 2026. I love exploring creative projects, learning new skills, and sharing what I’m passionate about online.  
+        Whether it’s working on personal projects, building connections, or learning about new technologies, I always try to approach things with curiosity and energy.
+      </p>
+    </section>
+  </div>
 </body>
+</html>
 </html>
