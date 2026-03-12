@@ -91,6 +91,75 @@
 </head>
 
 <body>
+  
+<header>
+
+<style>
+header{
+  width:100%;
+  background: linear-gradient(180deg,#7ec8ff,#2f80ff);
+  position:sticky;
+  top:0;
+  overflow:hidden;
+}
+
+nav{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  padding:15px;
+  z-index:2;
+  position:relative;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:18px;
+}
+
+nav a:hover{
+  text-decoration:underline;
+}
+
+.wave{
+  position:absolute;
+  bottom:0;
+  width:200%;
+  height:60px;
+  background:url("https://svgshare.com/i/12h4.svg");
+  background-size:cover;
+  animation:waveMove 8s linear infinite;
+}
+
+@keyframes waveMove{
+  from{transform:translateX(0);}
+  to{transform:translateX(-50%);}
+}
+
+html{
+  scroll-behavior:smooth;
+}
+</style>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about-me">About</a>
+<a href="Unit-3-Project.html">Portfolio</a>
+<a href="img/resume.pdf">Resume</a>
+<a href="mailto:saniazerehpoush@gmail.com">Contact</a>
+</nav>
+
+<div class="wave"></div>
+
+</header>
+
+
+
+
+
+
   <div class="container">
     
     <img src="img/IMG_3042.jpeg" alt="My Photo" class="circle-img">
